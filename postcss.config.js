@@ -5,6 +5,5 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     isProduction ? require('autoprefixer') : '',
-    // isProduction ? require('cssnano')({ preset: 'default' }) : '',
   ],
 };
